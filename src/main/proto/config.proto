@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package proto;
+
+message Config {
+    // The number of recent images to show
+    int32 recent_images = 1;
+}
